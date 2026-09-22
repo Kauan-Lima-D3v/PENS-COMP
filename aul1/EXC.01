@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    
+    char nome [50];
+    int idade;
+    float altura;
+
+    printf("Digite o nome: ");
+    scanf("%s", nome);
+    printf("Digite a idade: ");
+    scanf("%d", &idade);
+    printf("Digite a altura: ");
+    scanf("%f", &altura);
+
+  
+    printf("\n");
+    printf(" Dados do Usuario     \n");
+    printf("\n");
+
+    printf("Pessoa :\n");
+    printf("Nome: %s | Idade: %d anos | Altura: %.2f m\n\n", nome, idade, altura);
+
+    return 0;
+}
