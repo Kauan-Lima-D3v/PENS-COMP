@@ -1,0 +1,23 @@
+8.	Leia números repetidamente até que o usuário digite 0.
+
+#include <stdio.h>
+
+int main() {
+
+    int numero;
+
+    printf("Digite um numero Amigo ou 0 para sair: ");
+    scanf("%d", &numero);
+
+    while (numero != 0) {
+
+        printf("Voce digitou: %d\n", numero);
+
+        printf("Digite outro numero Amigo ou 0 para sair: ");
+        scanf("%d", &numero);
+    }
+
+    printf("Programa encerrado com sucesso Obrigado 👍!\n");
+
+    return 0;
+}
