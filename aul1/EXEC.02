@@ -1,0 +1,32 @@
+int main() {
+
+    int a, b;
+    printf("Digite o primeiro valor: ");
+    scanf("%d", &a);
+	printf("Digite o segundo valor : ");
+    scanf("%d", &b);
+
+    printf("Soma: %d\n", a + b);
+    printf("Subtracao: %d\n", a - b);
+    printf("Multiplicacao: %d\n", a * b);
+
+    return 0;
+} 
+
+int main() {
+
+    float nota1, nota2, media;
+
+    printf("Digite a primeira nota: ");
+    scanf("%f", &nota1);
+
+    printf("Digite a segunda nota: ");
+    scanf("%f", &nota2);
+
+    media = (nota1 + nota2) / 2.0f;
+
+    printf("Media: %.2f\n", media);
+
+    return 0;
+}
+
